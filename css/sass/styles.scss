@@ -1,0 +1,234 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+*{
+	padding:0;
+	margin:0;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+}
+header{
+	nav{
+		text-align: right;
+		ul{
+			list-style: none;
+			li{
+				display: inline-block;
+				margin: 10px 15px;
+				padding: 10px 30px;
+				cursor: pointer;
+				&#contactBtn{
+					background-color: #e66700;
+					border-radius: 20px;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+.clear{
+	clear: both;
+}
+section{
+	width: 100%;
+	text-align: center;
+	&.mainImg{
+		background-color: #0098ce;
+		color: #fff;
+		height: 300px;
+		h3{
+			font-size: 25px;
+			padding: 25px 0 10px;
+		}
+		p{
+			font-size: 16px;
+		}
+	}
+	&.howWorks{
+		padding-top: 50px;
+		h3{
+			font-size: 25px;
+		}
+		.workCont{
+			text-align: right;
+			width: 600px;
+			margin: 0 auto;
+			.imgCont{
+				//display: table;
+				float: right;
+				.costo_img{
+					display: table-cell;
+					vertical-align: middle;
+					width: 260px;
+					text-align: center;
+					color: #e66700;
+					img{
+						background-color: #cc98ce;
+						width: 50px;
+						height: 150px;
+					}
+					p{}
+				}
+				.vs_img{
+					display: table-cell;
+					vertical-align: middle;
+					text-align: center;
+					p{
+						background-color: #f7971c;
+						border-radius: 50%;
+						width: 21px;
+						height: 24px;
+						padding: 5px 6px;
+						text-align: center;
+						color: #fff;
+					}
+				}
+				.comision_img{
+					display: table-cell;
+					vertical-align: middle;
+					width: 260px;
+					text-align: center;
+					img{
+						background-color: #cc98ce;
+						width: 50px;
+						height: 150px;
+					}
+					p{}
+				}
+			}
+			.text_cont{
+				float: right;
+				border-top: 1px solid #ccc;
+				.title{
+					display: table-cell;
+					vertical-align: middle;
+					p{
+						font-size: 19px;
+					}
+				}
+				.costo_desc{
+					width: 260px;
+					display: table-cell;
+					vertical-align: middle;
+					text-align: center;
+					color: #e66700;
+					p{
+						margin: 10px 30px;
+					}
+				}
+				.comision_desc{
+					width: 260px;
+					display: table-cell;
+					vertical-align: middle;
+					text-align: center;
+					p{
+						margin: 10px 30px;
+					}
+				}
+			}
+		}		
+	}
+	&.register{
+		margin-top: 40px;
+		h3{
+			font-size: 25px;
+			margin-bottom: 30px; 
+		}
+		.btnCont{
+			.comprar_btn{
+				display: inline-block;
+				padding: 10px 30px;
+				background-color: #e66700;
+				color: #fff;
+				margin: 0 10px;
+				border-radius: 20px;
+				//p{}
+			}
+			.vender_btn{
+				display: inline-block;
+				padding: 10px 30px;
+				background-color: #f7971c;
+				color: #fff;
+				margin: 0 10px;
+				border-radius: 20px;
+				//p{}
+			}
+		}
+	}
+}
+footer{
+	margin-top: 100px;
+	text-align: center;
+	.footer_img{
+		width: 100%;
+		margin-bottom: 30px;
+		.first_img{
+			float: left;
+			width: 25%;
+			img{
+				width: 50px;
+				height: 50px;
+				background-color: red;
+			}
+		}
+		.second_img{
+			float: left;
+			width: 25%;
+			text-align: left;
+			ul{
+				list-style: none;
+				li{}
+			}
+		}
+		.third_img{
+			float: left;
+			width: 25%;
+			text-align: left;
+			ul{
+				list-style: none;
+				li{
+					.fb_logo{
+						width: 10px;
+						height: 10px;
+						display: inline-block;
+						margin: 0 5px;
+						background-color: blue;
+					}
+					.insta_logo{
+						width: 10px;
+						height: 10px;
+						display: inline-block;
+						margin: 0 5px;
+						background-color: blue;
+					}
+				}
+			}
+		}			
+		.fourth_img{
+			float: left;
+			width: 25%;
+			p{}
+			.btn_footer{
+				display: inline-block;
+				padding: 10px 30px;
+				background-color: #e66700;
+				color: #fff;
+				margin: 0 10px;
+				border-radius: 20px;
+			}
+		}
+	}
+		
+					
+	.legal{
+		border-top: 1px solid #ccc;
+		p{
+			margin: 10px;
+			display: inline-block;
+		}
+	}
+}

@@ -1,0 +1,270 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 6, sass/styles.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, sass/styles.scss */
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 15, sass/styles.scss */
+header nav {
+  text-align: right;
+}
+/* line 17, sass/styles.scss */
+header nav ul {
+  list-style: none;
+}
+/* line 19, sass/styles.scss */
+header nav ul li {
+  display: inline-block;
+  margin: 10px 15px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+/* line 24, sass/styles.scss */
+header nav ul li#contactBtn {
+  background-color: #e66700;
+  border-radius: 20px;
+  color: #fff;
+}
+
+/* line 33, sass/styles.scss */
+.clear {
+  clear: both;
+}
+
+/* line 36, sass/styles.scss */
+section {
+  width: 100%;
+  text-align: center;
+}
+/* line 39, sass/styles.scss */
+section.mainImg {
+  background-color: #0098ce;
+  color: #fff;
+  height: 300px;
+}
+/* line 43, sass/styles.scss */
+section.mainImg h3 {
+  font-size: 25px;
+  padding: 25px 0 10px;
+}
+/* line 47, sass/styles.scss */
+section.mainImg p {
+  font-size: 16px;
+}
+/* line 51, sass/styles.scss */
+section.howWorks {
+  padding-top: 50px;
+}
+/* line 53, sass/styles.scss */
+section.howWorks h3 {
+  font-size: 25px;
+}
+/* line 56, sass/styles.scss */
+section.howWorks .workCont {
+  text-align: right;
+  width: 600px;
+  margin: 0 auto;
+}
+/* line 60, sass/styles.scss */
+section.howWorks .workCont .imgCont {
+  float: right;
+}
+/* line 63, sass/styles.scss */
+section.howWorks .workCont .imgCont .costo_img {
+  display: table-cell;
+  vertical-align: middle;
+  width: 260px;
+  text-align: center;
+  color: #e66700;
+}
+/* line 69, sass/styles.scss */
+section.howWorks .workCont .imgCont .costo_img img {
+  background-color: #cc98ce;
+  width: 50px;
+  height: 150px;
+}
+/* line 76, sass/styles.scss */
+section.howWorks .workCont .imgCont .vs_img {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 80, sass/styles.scss */
+section.howWorks .workCont .imgCont .vs_img p {
+  background-color: #f7971c;
+  border-radius: 50%;
+  width: 21px;
+  height: 24px;
+  padding: 5px 6px;
+  text-align: center;
+  color: #fff;
+}
+/* line 90, sass/styles.scss */
+section.howWorks .workCont .imgCont .comision_img {
+  display: table-cell;
+  vertical-align: middle;
+  width: 260px;
+  text-align: center;
+}
+/* line 95, sass/styles.scss */
+section.howWorks .workCont .imgCont .comision_img img {
+  background-color: #cc98ce;
+  width: 50px;
+  height: 150px;
+}
+/* line 103, sass/styles.scss */
+section.howWorks .workCont .text_cont {
+  float: right;
+  border-top: 1px solid #ccc;
+}
+/* line 106, sass/styles.scss */
+section.howWorks .workCont .text_cont .title {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 109, sass/styles.scss */
+section.howWorks .workCont .text_cont .title p {
+  font-size: 19px;
+}
+/* line 113, sass/styles.scss */
+section.howWorks .workCont .text_cont .costo_desc {
+  width: 260px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #e66700;
+}
+/* line 119, sass/styles.scss */
+section.howWorks .workCont .text_cont .costo_desc p {
+  margin: 10px 30px;
+}
+/* line 123, sass/styles.scss */
+section.howWorks .workCont .text_cont .comision_desc {
+  width: 260px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 128, sass/styles.scss */
+section.howWorks .workCont .text_cont .comision_desc p {
+  margin: 10px 30px;
+}
+/* line 135, sass/styles.scss */
+section.register {
+  margin-top: 40px;
+}
+/* line 137, sass/styles.scss */
+section.register h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+/* line 142, sass/styles.scss */
+section.register .btnCont .comprar_btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #e66700;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+/* line 151, sass/styles.scss */
+section.register .btnCont .vender_btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #f7971c;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+
+/* line 163, sass/styles.scss */
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+/* line 166, sass/styles.scss */
+footer .footer_img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+/* line 169, sass/styles.scss */
+footer .footer_img .first_img {
+  float: left;
+  width: 25%;
+}
+/* line 172, sass/styles.scss */
+footer .footer_img .first_img img {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+/* line 178, sass/styles.scss */
+footer .footer_img .second_img {
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+/* line 182, sass/styles.scss */
+footer .footer_img .second_img ul {
+  list-style: none;
+}
+/* line 187, sass/styles.scss */
+footer .footer_img .third_img {
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+/* line 191, sass/styles.scss */
+footer .footer_img .third_img ul {
+  list-style: none;
+}
+/* line 194, sass/styles.scss */
+footer .footer_img .third_img ul li .fb_logo {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px;
+  background-color: blue;
+}
+/* line 201, sass/styles.scss */
+footer .footer_img .third_img ul li .insta_logo {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  margin: 0 5px;
+  background-color: blue;
+}
+/* line 211, sass/styles.scss */
+footer .footer_img .fourth_img {
+  float: left;
+  width: 25%;
+}
+/* line 215, sass/styles.scss */
+footer .footer_img .fourth_img .btn_footer {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #e66700;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 20px;
+}
+/* line 227, sass/styles.scss */
+footer .legal {
+  border-top: 1px solid #ccc;
+}
+/* line 229, sass/styles.scss */
+footer .legal p {
+  margin: 10px;
+  display: inline-block;
+}
