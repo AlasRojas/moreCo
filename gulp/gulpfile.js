@@ -26,7 +26,7 @@ gulp.task('minImg', function() {
 gulp.task('scripts', function() {
 	return gulp.src([ '../js/src/*.js'])
 		.pipe(sourcemaps.init())
-		.pipe(concat('scripts.min.js'))
+		.pipe(concat('blickUtils.js'))
 		.pipe(uglify())
 		.pipe(sourcemaps.write('../maps'))
 		.pipe(gulp.dest('../js'));
